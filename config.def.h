@@ -71,6 +71,8 @@ static const struct arg args[] = {
      "/home/yelaco/.local/src/slstatus/scripts/volume.sh"},
     {run_command, "%s   ",
      "/home/yelaco/.local/src/slstatus/scripts/battery.sh"},
+    {run_command, "%s   ",
+     "/home/yelaco/.local/src/slstatus/scripts/input_method.sh"},
     {run_command, "%s   ", "/home/yelaco/.local/src/slstatus/scripts/wlan.sh"},
     {run_command, " %s   ", "date '+%a %d %B'"},
     {run_command, " %s  ", "date '+%H:%M'"},
